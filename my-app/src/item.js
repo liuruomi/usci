@@ -49,13 +49,9 @@ class item extends Component{
             method: 'DELETE'
           };
 
-          // Note: I'm using arrow functions inside the `.fetch()` method.
-          // This makes it so you don't have to bind component functions like `setState`
-          // to the component.
           fetch(url, requestOptions).then((response) => {
             return response.json();
           }).then((result) => {
-            // do what you want with the response here
           });
 
         let path = './';
