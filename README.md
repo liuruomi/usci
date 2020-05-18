@@ -1,7 +1,7 @@
 # usci
 cd to ./backend and run 'flask run' in terminal
 
-cd to my-app
+open a new terminal and cd to my-app
 
 run 'npm install'
 
